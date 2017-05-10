@@ -9,6 +9,6 @@ summary    : X11 interface for Python3
 description: |
     python3-xlib is python3 version of python-xlib
 build      : |
-    %python3_setup   
+    %python3_setup
 install    : |
     %python3_install --root=%installroot% --no-compile -O0
